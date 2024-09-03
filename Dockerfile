@@ -26,8 +26,6 @@ RUN sudo apt install -y nodejs
 
 RUN git clone https://github.com/dillfrescott/pingvin-share
 
-RUN npm i -g pm2
-
 WORKDIR /pingvin-share/backend
 
 RUN npm install && npm run build
