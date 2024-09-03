@@ -1,0 +1,9 @@
+services:
+  pingvin-share:
+    image: xdillfrescott/dillshare:latest
+    restart: always
+    ports:
+      - 3333:3000
+    volumes:
+      - "./data:/pingvin-share/backend/data"
+      - "./data/images:/pingvin-share/frontend/public/img"
