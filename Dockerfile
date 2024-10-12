@@ -24,7 +24,7 @@ RUN sudo -E bash nodesource_setup.sh
 
 RUN sudo apt install -y nodejs
 
-RUN git clone https://github.com/dillfrescott/pingvin-share
+RUN git clone https://github.com/stonith404/pingvin-share
 
 WORKDIR /pingvin-share/backend
 
