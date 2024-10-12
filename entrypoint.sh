@@ -2,7 +2,7 @@
 
 cd /pingvin-share/backend
 
-PORT=8080 npm run prod &
+HOSTNAME=0.0.0.0 PORT=8080 npm run prod &
 
 cd /pingvin-share/frontend
 
